@@ -39,7 +39,7 @@ public partial class @CharacterInput : IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""2D Vector"",
+                    ""name"": ""Arrow Keys"",
                     ""id"": ""13debd42-96c7-47f0-a801-f9b670a2a420"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
