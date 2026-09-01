@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3413,20 +3413,20 @@ TextureImporter:
       16x16 All Animations-Sheet_51: 430623669
       16x16 All Animations-Sheet_129: -1582396283
       16x16 All Animations-Sheet_48: -2116891906
-      16x16 All Animations-Sheet_81: 1979513934
       16x16 All Animations-Sheet_107: -1963655658
       16x16 All Animations-Sheet_71: 1606747228
       16x16 All Animations-Sheet_14: 1621441954
-      16x16 All Animations-Sheet_114: 1681490323
+      16x16 All Animations-Sheet_81: 1979513934
       16x16 All Animations-Sheet_144: -1962310180
       16x16 All Animations-Sheet_139: 1748955885
+      16x16 All Animations-Sheet_114: 1681490323
       16x16 All Animations-Sheet_19: 956098804
       16x16 All Animations-Sheet_73: -806973418
       16x16 All Animations-Sheet_35: 2034074411
       16x16 All Animations-Sheet_3: 172157423
       16x16 All Animations-Sheet_134: 1862413420
-      16x16 All Animations-Sheet_115: 1346145130
       16x16 All Animations-Sheet_152: -1985650787
+      16x16 All Animations-Sheet_115: 1346145130
       16x16 All Animations-Sheet_72: 47005191
       16x16 All Animations-Sheet_75: -2143871780
       16x16 All Animations-Sheet_148: -2042669335

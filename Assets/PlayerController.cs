@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private CharacterInput controls;
     private Vector2 move;
 
+    private Rigidbody2D body;
+
     public float moveSpeed = 1f;
 
     // Start is called before the first frame update
@@ -20,18 +22,20 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        body = GetComponent<Rigidbody2D>();
         controls = new CharacterInput();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 position = transform.position;
+
+    }
+
+    private void FixedUpdate()
+    {
         move = controls.Player.Movement.ReadValue<Vector2>();
-        position.y = position.y + move.y * moveSpeed * Time.deltaTime;
-        position.x = position.x + move.x * moveSpeed * Time.deltaTime;
-        
-        transform.position = position;
+        body.velocity = new Vector2(move.x * moveSpeed, move.y * moveSpeed);
     }
 
     private void PlayerMovement()
