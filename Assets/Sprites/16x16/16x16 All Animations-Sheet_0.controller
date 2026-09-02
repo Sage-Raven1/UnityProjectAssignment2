@@ -49,7 +49,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
+  - m_ConditionMode: 3
     m_ConditionEvent: Direction
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
@@ -122,28 +122,28 @@ AnimatorStateMachine:
     m_Position: {x: 210, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2225110428590704371}
-    m_Position: {x: 1000, y: 260, z: 0}
+    m_Position: {x: 700, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4618294496229886657}
-    m_Position: {x: 1250, y: 200, z: 0}
+    m_Position: {x: 950, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6563427763058673000}
-    m_Position: {x: 1300, y: 130, z: 0}
+    m_Position: {x: 1000, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5191201479175398509}
-    m_Position: {x: 1250, y: 60, z: 0}
+    m_Position: {x: 950, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8824649806910678713}
-    m_Position: {x: 1000, y: 0, z: 0}
+    m_Position: {x: 700, y: -200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8664731241413832942}
-    m_Position: {x: 750, y: 60, z: 0}
+    m_Position: {x: 450, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1423162983229827844}
-    m_Position: {x: 700, y: 130, z: 0}
+    m_Position: {x: 400, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3503381444474743477}
-    m_Position: {x: 750, y: 200, z: 0}
+    m_Position: {x: 450, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6733274296775832023}
     m_Position: {x: 200, y: 60, z: 0}
@@ -244,7 +244,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
+  - m_ConditionMode: 3
     m_ConditionEvent: Direction
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
@@ -456,7 +456,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 6
+  - m_ConditionMode: 3
     m_ConditionEvent: Direction
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
